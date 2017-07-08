@@ -1,7 +1,7 @@
 <?php
 	include 'header.php';
 ?>
-
+<body>
     <!-- Row for FORM starts -->
 	<div class="row">
     	<div class="col-md-12">
