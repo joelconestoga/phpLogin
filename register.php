@@ -53,7 +53,7 @@
         </div>
     </div><!-- /.row for FORM ends -->
 
-	Already have an account? <a href="index.php">Click here</a> to Log In.
+	Already have an account? <a href="login.php">Click here</a> to Log In.
 
 </body>
 </html>
