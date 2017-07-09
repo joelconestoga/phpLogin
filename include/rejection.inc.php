@@ -5,7 +5,7 @@
 
 	$id = $_GET['id'];
 
-	$sql = "UPDATE my_user SET approved = 1 WHERE id = ".$id;
+	$sql = "UPDATE my_user SET approved = 0 WHERE id = ".$id;
 	$result = mysqli_query($conn, $sql);
 
 	$sql = "SELECT * FROM my_user WHERE id = ".$id;
@@ -13,10 +13,10 @@
 
 	if ($row = $result->fetch_assoc()) {
 		$email = $row['email'];
-		sendEmailToUser($email, true);		
+		sendEmailToUser($email, false);		
 	}
 
 
-	header("Location: ../registration_ok.php");
+	header("Location: ../registration_not.php");
 
 ?>
