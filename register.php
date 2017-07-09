@@ -28,6 +28,14 @@
                 </div>
                 <div class="row">
                     <div class="form-group">
+                        <label for="email" class="col-lg-1 control-label text-right">Email</label>
+                        <div class="col-lg-2">
+                            <input class="form-control" name="email" placeholder="email" type="email"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
                         <label for="username" class="col-lg-1 control-label text-right">Username</label>
                         <div class="col-lg-2">
                             <input class="form-control" name="username" placeholder="Username" type="text"/>

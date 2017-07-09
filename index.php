@@ -1,6 +1,10 @@
 <?php
 	include 'header.php';
+
+	if (!isset($_SESSION['id']))
+		header("Location: login.php");
 ?>
+
 <body>
     <!-- Row for FORM starts -->
 	<div class="row">

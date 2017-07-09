@@ -3,8 +3,7 @@
 
 	include 'dbh.inc.php';
 
-	if (!isset($_POST['submit'])) {
-		header("Location: ../login.php");
-		exit();
-	}
+	//$alert = var_export($id, true);
+	//echo "<script type='text/javascript'>alert('$alert');</script>";
+
 ?>
