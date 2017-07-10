@@ -11,9 +11,9 @@
 
 	if ($row = $result->fetch_assoc() and $row['approved'] == 1) {		
 		$_SESSION['id'] = $row['id'];
-		header("Location: ../index.php");
+		header("Location: ../home.php");
 	} else {
-		header("Location: ../login.php");
+		header("Location: ../index.php");
 	}
 
 

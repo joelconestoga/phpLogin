@@ -73,7 +73,7 @@
 
 		if ($ok) {
 			$mail->Body = "Your registration has been approved. ".
-						  "<a href='http://localhost/phpLogin/login.php' target='_blank'>Click here</a>".
+						  "<a href='http://localhost/phpLogin/index.php' target='_blank'>Click here</a>".
 						  " to Log In."; 
 		} else {
 			$mail->Body = "Your registration has been rejected."; 			
