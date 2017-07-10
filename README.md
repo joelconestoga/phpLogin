@@ -7,8 +7,8 @@ Highlights
 * Users can Register (data persisted on mySQL)
 ![image](https://user-images.githubusercontent.com/25067011/27991345-933beb5c-6441-11e7-91cc-98c86a8ee592.png)
 
-* Users can Login
-![image](https://user-images.githubusercontent.com/25067011/27991351-b65b5c12-6441-11e7-8d6d-f0dcd3a7ae92.png)
+* Users can Login with registered user or Gmail oAuth
+![image](https://user-images.githubusercontent.com/25067011/28038721-ccf87728-658d-11e7-9197-b6f481ce7bf3.png)
 
 * Admin receives email for Approval/Deny of new registrations
 ![image](https://user-images.githubusercontent.com/25067011/27991362-f3ee5f66-6441-11e7-8d8e-e8978aeb646e.png)
