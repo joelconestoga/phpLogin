@@ -1,8 +1,10 @@
 <?php
-	include 'header.php';
+	session_start();
 
 	if (!isset($_SESSION['id']))
-		header("Location: login.php");
+		header("Location: index.php");
+
+	include 'header.php';
 ?>
 
 <body>

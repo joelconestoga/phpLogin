@@ -1,5 +1,6 @@
 <?php
-    include 'header.php';
+    session_start();
+
     include 'include/oauth.inc.php';
 
     if (isset($email)) {
@@ -17,6 +18,8 @@
             echo ("<h3>Erro!!!</h3>");
         }
     }
+
+    include 'header.php';
 ?>
 
 <body>
